@@ -3,6 +3,7 @@ SENTINEL: int = -999;
 
 for _ in range(100):
     count_numbers.append(0)
+# count_numbers=[0]*10
 while True:
     number: int = int(input("enter number:"))
     if number == SENTINEL:

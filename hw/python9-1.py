@@ -21,7 +21,7 @@ if temperatures:
     print(f"avg temperatures:{sum(temperatures) / len(temperatures):.2f}");
 print("temperature:", end=' ');
 for temperature in temperatures:
-    print(temperature, end=' ');
+    print(f"{'+' if temperature > 0 else '-'}{temperature}C", end=' ');  # ternary-operator-in-python
 print()
 if 39.1 in temperatures:
     index_39_1: int = temperatures.index(39.1);

@@ -42,6 +42,7 @@
      ** pop(index)- remove the item by its index.
    * delete - remove an item, without returning value.
         ** remove by list[start,end,steps], or by index
+       * doesn't work on empty list  
         ```
         del list1[1]
         del list1[1:7:2]
@@ -56,6 +57,7 @@
    * l2=l1: copy by reference, same in the memory, 2 points on the same list, works only on saved data structures and not primitive parameters.
    * copy: copy by values. save a new location in the memory. l2=l1.copy()
    * sort - list.sort(): 
+     * change the current list
      * optional parameters in the function:
        * key= A function to specify the sorting criteria(s)
        * reverse, boolean: list.sort(reverse=True)
