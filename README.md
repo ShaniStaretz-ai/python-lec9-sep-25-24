@@ -61,6 +61,7 @@
      * optional parameters in the function:
        * key= A function to specify the sorting criteria(s)
        * reverse, boolean: list.sort(reverse=True)
+   * sorted - =newList=sorted(list)- returns a new list after the input list was sorted. the input list was not changed.
 ## Extra:
 
 1) Syntax shortcuts:
